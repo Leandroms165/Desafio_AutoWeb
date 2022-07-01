@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSeleniumExtentReportNetCoreTemplate", "CSharpSeleniumExtentReportNetCoreTemplate\CSharpSeleniumExtentReportNetCoreTemplate.csproj", "{9041BC95-204D-4F45-9067-B1D4594B139E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpSeleniumExtentReportNetCoreTemplate", "CSharpSeleniumExtentReportNetCoreTemplate.csproj", "{CF976282-04BA-4FE5-9790-87C25DCE6FA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9041BC95-204D-4F45-9067-B1D4594B139E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9041BC95-204D-4F45-9067-B1D4594B139E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9041BC95-204D-4F45-9067-B1D4594B139E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9041BC95-204D-4F45-9067-B1D4594B139E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF976282-04BA-4FE5-9790-87C25DCE6FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF976282-04BA-4FE5-9790-87C25DCE6FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF976282-04BA-4FE5-9790-87C25DCE6FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF976282-04BA-4FE5-9790-87C25DCE6FA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7971FD63-D954-4CD1-B05F-B5DB557BF267}
+		SolutionGuid = {A38F4D3D-3D2D-4D9F-B9E2-7BCEFADE0704}
 	EndGlobalSection
 EndGlobal

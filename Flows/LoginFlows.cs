@@ -21,6 +21,7 @@ namespace CSharpSeleniumExtentReportNetCoreTemplate.Flows
         public void EfetuarLogin(string username, string password)
         {
             loginPage.PreencherUsuario(username);
+            loginPage.ClicarEmLogin();
             loginPage.PreencherSenha(password);
             loginPage.ClicarEmLogin();
         }

@@ -91,8 +91,14 @@ namespace CSharpSeleniumExtentReportNetCoreTemplate.Bases
         {
             WaitForElement(locator).SendKeys(text);
             ExtentReportHelpers.AddTestInfo(3, "PARAMETER: " + text);
+           
         }
-
+      
+        protected void ClearElement(By locator)
+        {
+            WaitForElement(locator).Clear();
+            ExtentReportHelpers.AddTestInfo(3, "PARAMETER: ");
+        }
         protected void SendKeysWithoutWaitVisible(By locator, string text)
         {
             wait.Until(ExpectedConditions.ElementExists(locator));
@@ -100,7 +106,7 @@ namespace CSharpSeleniumExtentReportNetCoreTemplate.Bases
             element.SendKeys(text);
             ExtentReportHelpers.AddTestInfo(3, "PARAMETER: " + text);
         }
-
+        
         protected void ComboBoxSelectByVisibleText(By locator, string text)
         {
             OpenQA.Selenium.Support.UI.SelectElement comboBox = new OpenQA.Selenium.Support.UI.SelectElement(WaitForElement(locator));
